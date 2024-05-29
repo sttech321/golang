@@ -1,37 +1,58 @@
 # golang
 GoLang crud opertaion
 
+# User CRUD Operation
+
+This project is a sample Go application that performs CRUD (Create, Read, Update, Delete) operations for managing users.
+
+## Table of Contents
+
+- [User CRUD Operation](#user-crud-operation)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+    - [Prerequisites](#prerequisites)
+    - [Steps](#steps)
+  - [Usage](#usage)
+    - [Running the application](#running-the-application)
+    - [Building the application](#building-the-application)
+    - [Running tests](#running-tests)
+  - [API Endpoints](#api-endpoints)
+  - [Features](#features)
+  - [Configuration](#configuration)
+    - [Environment Variables](#environment-variables)
+  - [Contributing](#contributing)
+  - [License](#license)
+
+## Installation
+
+### Prerequisites
+
+- Go version 1.XX or higher
+- Any other software or tools needed
+
+### Steps
+
+1. Clone the repository: 
+   git clone https://github.com/sttech321/golang.git
+
+
 
 Installation
-Prerequisites
-Go version 1.XX or higher
-Any other software or tools needed
-Steps
-Clone the repository:
-sh
-Copy code
-git clone https://github.com/sttech321/golang.git
-Navigate to the project directory:
-sh
-Copy code
-cd user-crud-sample
+  
 Install dependencies:
-sh
-Copy code
+ 
 go mod tidy
-Usage
-Running the application
+ 
+ 
 To run the application, execute:
+ 
+go run main.go 
 
-sh
-Copy code
-go run main.go
-Building the application
 To build the application, execute:
-
-sh
-Copy code
+ 
 go build -o usercrud main.go
+
+
 Running tests
 To run tests, execute:
 
